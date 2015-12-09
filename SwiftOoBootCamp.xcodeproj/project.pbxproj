@@ -10,7 +10,9 @@
 		B6FDB0521C18AE3D00690592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0511C18AE3D00690592 /* AppDelegate.swift */; };
 		B6FDB0541C18AE3D00690592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB0531C18AE3D00690592 /* Assets.xcassets */; };
 		B6FDB0571C18AE3D00690592 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB0551C18AE3D00690592 /* MainMenu.xib */; };
-		B6FDB0621C18AE3D00690592 /* SwiftOoBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */; };
+		B6FDB0621C18AE3D00690592 /* RectangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0611C18AE3D00690592 /* RectangleTests.swift */; };
+		B6FDB06D1C18AEA200690592 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB06C1C18AEA200690592 /* .gitignore */; };
+		B6FDB0711C18AEF600690592 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0701C18AEF600690592 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +32,10 @@
 		B6FDB0561C18AE3D00690592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B6FDB0581C18AE3D00690592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6FDB05D1C18AE3D00690592 /* SwiftOoBootCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOoBootCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOoBootCampTests.swift; sourceTree = "<group>"; };
+		B6FDB0611C18AE3D00690592 /* RectangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTests.swift; sourceTree = "<group>"; };
 		B6FDB0631C18AE3D00690592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FDB06C1C18AEA200690592 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B6FDB0701C18AEF600690592 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		B6FDB0451C18AE3D00690592 = {
 			isa = PBXGroup;
 			children = (
+				B6FDB06C1C18AEA200690592 /* .gitignore */,
 				B6FDB0501C18AE3D00690592 /* SwiftOoBootCamp */,
 				B6FDB0601C18AE3D00690592 /* SwiftOoBootCampTests */,
 				B6FDB04F1C18AE3D00690592 /* Products */,
@@ -73,6 +78,7 @@
 		B6FDB0501C18AE3D00690592 /* SwiftOoBootCamp */ = {
 			isa = PBXGroup;
 			children = (
+				B6FDB06E1C18AEBB00690592 /* Rectangle */,
 				B6FDB0511C18AE3D00690592 /* AppDelegate.swift */,
 				B6FDB0531C18AE3D00690592 /* Assets.xcassets */,
 				B6FDB0551C18AE3D00690592 /* MainMenu.xib */,
@@ -84,10 +90,26 @@
 		B6FDB0601C18AE3D00690592 /* SwiftOoBootCampTests */ = {
 			isa = PBXGroup;
 			children = (
-				B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */,
+				B6FDB06F1C18AEC200690592 /* Rectangle */,
 				B6FDB0631C18AE3D00690592 /* Info.plist */,
 			);
 			path = SwiftOoBootCampTests;
+			sourceTree = "<group>";
+		};
+		B6FDB06E1C18AEBB00690592 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB0701C18AEF600690592 /* Rectangle.swift */,
+			);
+			name = Rectangle;
+			sourceTree = "<group>";
+		};
+		B6FDB06F1C18AEC200690592 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB0611C18AE3D00690592 /* RectangleTests.swift */,
+			);
+			name = Rectangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FDB0541C18AE3D00690592 /* Assets.xcassets in Resources */,
+				B6FDB06D1C18AEA200690592 /* .gitignore in Resources */,
 				B6FDB0571C18AE3D00690592 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6FDB0521C18AE3D00690592 /* AppDelegate.swift in Sources */,
+				B6FDB0711C18AEF600690592 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6FDB0621C18AE3D00690592 /* SwiftOoBootCampTests.swift in Sources */,
+				B6FDB0621C18AE3D00690592 /* RectangleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
