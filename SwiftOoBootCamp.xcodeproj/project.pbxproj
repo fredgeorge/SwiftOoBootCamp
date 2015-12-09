@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6FDB0521C18AE3D00690592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0511C18AE3D00690592 /* AppDelegate.swift */; };
+		B6FDB0541C18AE3D00690592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB0531C18AE3D00690592 /* Assets.xcassets */; };
+		B6FDB0571C18AE3D00690592 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FDB0551C18AE3D00690592 /* MainMenu.xib */; };
+		B6FDB0621C18AE3D00690592 /* SwiftOoBootCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FDB05E1C18AE3D00690592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FDB0461C18AE3D00690592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FDB04D1C18AE3D00690592;
+			remoteInfo = SwiftOoBootCamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6FDB04E1C18AE3D00690592 /* SwiftOoBootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOoBootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FDB0511C18AE3D00690592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6FDB0531C18AE3D00690592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6FDB0561C18AE3D00690592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B6FDB0581C18AE3D00690592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FDB05D1C18AE3D00690592 /* SwiftOoBootCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOoBootCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOoBootCampTests.swift; sourceTree = "<group>"; };
+		B6FDB0631C18AE3D00690592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FDB04B1C18AE3D00690592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FDB05A1C18AE3D00690592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FDB0451C18AE3D00690592 = {
+			isa = PBXGroup;
+			children = (
+				B6FDB0501C18AE3D00690592 /* SwiftOoBootCamp */,
+				B6FDB0601C18AE3D00690592 /* SwiftOoBootCampTests */,
+				B6FDB04F1C18AE3D00690592 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FDB04F1C18AE3D00690592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB04E1C18AE3D00690592 /* SwiftOoBootCamp.app */,
+				B6FDB05D1C18AE3D00690592 /* SwiftOoBootCampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FDB0501C18AE3D00690592 /* SwiftOoBootCamp */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB0511C18AE3D00690592 /* AppDelegate.swift */,
+				B6FDB0531C18AE3D00690592 /* Assets.xcassets */,
+				B6FDB0551C18AE3D00690592 /* MainMenu.xib */,
+				B6FDB0581C18AE3D00690592 /* Info.plist */,
+			);
+			path = SwiftOoBootCamp;
+			sourceTree = "<group>";
+		};
+		B6FDB0601C18AE3D00690592 /* SwiftOoBootCampTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FDB0611C18AE3D00690592 /* SwiftOoBootCampTests.swift */,
+				B6FDB0631C18AE3D00690592 /* Info.plist */,
+			);
+			path = SwiftOoBootCampTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FDB04D1C18AE3D00690592 /* SwiftOoBootCamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FDB0661C18AE3D00690592 /* Build configuration list for PBXNativeTarget "SwiftOoBootCamp" */;
+			buildPhases = (
+				B6FDB04A1C18AE3D00690592 /* Sources */,
+				B6FDB04B1C18AE3D00690592 /* Frameworks */,
+				B6FDB04C1C18AE3D00690592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOoBootCamp;
+			productName = SwiftOoBootCamp;
+			productReference = B6FDB04E1C18AE3D00690592 /* SwiftOoBootCamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FDB05C1C18AE3D00690592 /* SwiftOoBootCampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FDB0691C18AE3D00690592 /* Build configuration list for PBXNativeTarget "SwiftOoBootCampTests" */;
+			buildPhases = (
+				B6FDB0591C18AE3D00690592 /* Sources */,
+				B6FDB05A1C18AE3D00690592 /* Frameworks */,
+				B6FDB05B1C18AE3D00690592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FDB05F1C18AE3D00690592 /* PBXTargetDependency */,
+			);
+			name = SwiftOoBootCampTests;
+			productName = SwiftOoBootCampTests;
+			productReference = B6FDB05D1C18AE3D00690592 /* SwiftOoBootCampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FDB0461C18AE3D00690592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Fred George Consulting";
+				TargetAttributes = {
+					B6FDB04D1C18AE3D00690592 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B6FDB05C1C18AE3D00690592 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B6FDB04D1C18AE3D00690592;
+					};
+				};
+			};
+			buildConfigurationList = B6FDB0491C18AE3D00690592 /* Build configuration list for PBXProject "SwiftOoBootCamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FDB0451C18AE3D00690592;
+			productRefGroup = B6FDB04F1C18AE3D00690592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FDB04D1C18AE3D00690592 /* SwiftOoBootCamp */,
+				B6FDB05C1C18AE3D00690592 /* SwiftOoBootCampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FDB04C1C18AE3D00690592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FDB0541C18AE3D00690592 /* Assets.xcassets in Resources */,
+				B6FDB0571C18AE3D00690592 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FDB05B1C18AE3D00690592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FDB04A1C18AE3D00690592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FDB0521C18AE3D00690592 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FDB0591C18AE3D00690592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FDB0621C18AE3D00690592 /* SwiftOoBootCampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FDB05F1C18AE3D00690592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FDB04D1C18AE3D00690592 /* SwiftOoBootCamp */;
+			targetProxy = B6FDB05E1C18AE3D00690592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FDB0551C18AE3D00690592 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FDB0561C18AE3D00690592 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FDB0641C18AE3D00690592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6FDB0651C18AE3D00690592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6FDB0671C18AE3D00690592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftOoBootCamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrkei.SwiftOoBootCamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6FDB0681C18AE3D00690592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftOoBootCamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrkei.SwiftOoBootCamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6FDB06A1C18AE3D00690592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftOoBootCampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrkei.SwiftOoBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftOoBootCamp.app/Contents/MacOS/SwiftOoBootCamp";
+			};
+			name = Debug;
+		};
+		B6FDB06B1C18AE3D00690592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftOoBootCampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nrkei.SwiftOoBootCampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftOoBootCamp.app/Contents/MacOS/SwiftOoBootCamp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FDB0491C18AE3D00690592 /* Build configuration list for PBXProject "SwiftOoBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FDB0641C18AE3D00690592 /* Debug */,
+				B6FDB0651C18AE3D00690592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FDB0661C18AE3D00690592 /* Build configuration list for PBXNativeTarget "SwiftOoBootCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FDB0671C18AE3D00690592 /* Debug */,
+				B6FDB0681C18AE3D00690592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6FDB0691C18AE3D00690592 /* Build configuration list for PBXNativeTarget "SwiftOoBootCampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FDB06A1C18AE3D00690592 /* Debug */,
+				B6FDB06B1C18AE3D00690592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FDB0461C18AE3D00690592 /* Project object */;
+}
