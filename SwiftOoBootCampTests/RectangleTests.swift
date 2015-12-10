@@ -21,14 +21,27 @@ class RectangleTests: XCTestCase {
         XCTAssertEqualWithAccuracy(14, try! Rectangle(height: 3, width: 4).perimeter(), accuracy: EPSILON)
     }
     
-    func testInvalidWidth() {
+    func testInvalidDimensions() {
+        XCTAssertThrows(try Rectangle(height: 0, width: 4))
+        XCTAssertThrows(try Rectangle(height: 3, width: 0))
+        XCTAssertNoThrow(try Rectangle(height: 3, width: 4))
+    }
+    
+    func XCTAssertThrows<T>(@autoclosure expression: () throws -> T, _ message: String = "", file: String = __FILE__, line: UInt = __LINE__) {
         do {
-            let _ = try Rectangle(height: 3, width: 0)
-            XCTFail("Zero valued width allowed erroneously")
-        } catch ParameterError.RangeError {
+            try expression()
+            XCTFail("No error to catch! - \(message)", file: file, line: line)
         } catch {
-            XCTFail("Unexpected exception")
         }
     }
+    
+    func XCTAssertNoThrow<T>(@autoclosure expression: () throws -> T, _ message: String = "", file: String = __FILE__, line: UInt = __LINE__) {
+        do {
+            try expression()
+        } catch let error {
+            XCTFail("Caught error: \(error) - \(message)", file: file, line: line)
+        }
+    }
+
     
 }
