@@ -10,8 +10,8 @@ import Foundation
 
 // Understands a 4-sided polygon with sides at right angles
 class Rectangle {
-    var width: Double
-    var height: Double
+    let width: Double
+    let height: Double
     
     init(height: Double, width: Double) throws {
         self.height = height
