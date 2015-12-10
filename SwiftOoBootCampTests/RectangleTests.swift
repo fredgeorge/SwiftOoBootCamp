@@ -14,11 +14,21 @@ class RectangleTests: XCTestCase {
     let EPSILON: Double = 0.00001
     
     func testArea() {
-        XCTAssertEqualWithAccuracy(12, Rectangle(height: 3, width: 4).area(), accuracy: EPSILON)
+        XCTAssertEqualWithAccuracy(12, try! Rectangle(height: 3, width: 4).area(), accuracy: EPSILON)
     }
     
     func testPerimeter() {
-        XCTAssertEqualWithAccuracy(14, Rectangle(height: 3, width: 4).perimeter(), accuracy: EPSILON)
+        XCTAssertEqualWithAccuracy(14, try! Rectangle(height: 3, width: 4).perimeter(), accuracy: EPSILON)
+    }
+    
+    func testInvalidWidth() {
+        do {
+            let _ = try Rectangle(height: 3, width: 0)
+            XCTFail("Zero valued width allowed erroneously")
+        } catch ParameterError.RangeError {
+        } catch {
+            XCTFail("Unexpected exception")
+        }
     }
     
 }

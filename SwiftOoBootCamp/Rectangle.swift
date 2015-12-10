@@ -13,9 +13,12 @@ class Rectangle {
     var width: Double
     var height: Double
     
-    init(height: Double, width: Double) {
-        self.width = width
+    init(height: Double, width: Double) throws {
         self.height = height
+        self.width = width
+        guard height > 0 && width > 0 else {
+            throw ParameterError.RangeError
+        }
     }
     
     func area() ->  Double {
@@ -25,4 +28,8 @@ class Rectangle {
     func perimeter() -> Double {
         return 2 * (self.width + self.height)
     }
+}
+
+enum ParameterError : ErrorType {
+    case RangeError
 }
